@@ -52,8 +52,7 @@ function buildCharts(sample)
         
             let layout = 
             {
-              title: "Nasty Belly Button Bacteria",
-              xaxis: {title: "Otu ID"}
+              title: "Nasty Belly Button Bacteria"
             };
           let bubbleChartData = [bubbleTrace];      
           Plotly.newPlot("bubble", bubbleChartData, layout);
